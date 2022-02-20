@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/forkify-app/static/css/main.d54397e1.chunk.css",
+    "main.js": "/forkify-app/static/js/main.df0e952e.chunk.js",
+    "main.js.map": "/forkify-app/static/js/main.df0e952e.chunk.js.map",
+    "runtime-main.js": "/forkify-app/static/js/runtime-main.03dcc9cc.js",
+    "runtime-main.js.map": "/forkify-app/static/js/runtime-main.03dcc9cc.js.map",
+    "static/js/2.687d1d41.chunk.js": "/forkify-app/static/js/2.687d1d41.chunk.js",
+    "static/js/2.687d1d41.chunk.js.map": "/forkify-app/static/js/2.687d1d41.chunk.js.map",
+    "static/js/3.0146acfa.chunk.js": "/forkify-app/static/js/3.0146acfa.chunk.js",
+    "static/js/3.0146acfa.chunk.js.map": "/forkify-app/static/js/3.0146acfa.chunk.js.map",
+    "index.html": "/forkify-app/index.html",
+    "static/css/main.d54397e1.chunk.css.map": "/forkify-app/static/css/main.d54397e1.chunk.css.map",
+    "static/js/2.687d1d41.chunk.js.LICENSE.txt": "/forkify-app/static/js/2.687d1d41.chunk.js.LICENSE.txt",
+    "static/media/logo.d590dfcf.png": "/forkify-app/static/media/logo.d590dfcf.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.03dcc9cc.js",
+    "static/js/2.687d1d41.chunk.js",
+    "static/css/main.d54397e1.chunk.css",
+    "static/js/main.df0e952e.chunk.js"
+  ]
+}
