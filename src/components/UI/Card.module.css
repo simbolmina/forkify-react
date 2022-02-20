@@ -1,0 +1,6 @@
+.wrapper {
+  display: flex;
+  align-items: stretch;
+  background-color: #f9f5f3;
+  min-height: calc(100vh - 2 * 3vw);
+}

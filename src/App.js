@@ -1,24 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+//import { Fragment } from 'react';
+import Layout from './components/UI/Layout';
+import Header from './components/Header/Header';
+import SearchResults from './components/ResultsPage/SearchResults';
+import Card from './components/UI/Card';
+import { Route, Switch } from 'react-router-dom';
+import EmptyPage from './components/Recipe/EmptyPage';
+import Recipe from './components/Recipe/Recipe';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout>
+      <Header />
+      <Card>
+        <SearchResults />
+        <Switch>
+          <Route path="/" exact>
+            <EmptyPage />
+          </Route>
+          <Route path="/:recipeId">
+            <Recipe />
+          </Route>
+        </Switch>
+      </Card>
+    </Layout>
   );
 }
 
